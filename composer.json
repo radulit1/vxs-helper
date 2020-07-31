@@ -1,0 +1,33 @@
+{
+  "name" : "radulit1/vxs-helper",
+  "type": "library",
+  "description": "VXS Bill",
+
+  "homepage": "https://github.com/radulit1/vxs-helper",
+  "autoload": {
+    "psr-4": {
+      "VxsBill\\":"src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "VxsBill\\":"src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "php": "^7.2"
+
+  },
+  "require-dev": {
+    "ext-curl": "*"
+  },
+  "suggest": {
+    "psr/log": "Required for logs"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "master"
+    }
+  }
+}
